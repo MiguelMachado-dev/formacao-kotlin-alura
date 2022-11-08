@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: Conhecendo Orientaçao a Objetos&#10;&#10;- Criando classes e objetos">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: implementando comportamentos&#10;&#10;- Implementando os métodos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -29,20 +28,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/www/ByteBank&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/www/ByteBank",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
@@ -71,7 +71,7 @@
       <workItem from="1667871031831" duration="3329000" />
       <workItem from="1667917198090" duration="60000" />
       <workItem from="1667917276196" duration="103000" />
-      <workItem from="1667917533160" duration="1965000" />
+      <workItem from="1667917533160" duration="3230000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -87,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667918064664</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: implementando comportamentos&#10;&#10;- Implementando os métodos">
+      <created>1667921238392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667921238392</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +114,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: primeiros passos&#10;&#10;- Adicionando variaveis" />
     <MESSAGE value="feat: Conhecendo Orientaçao a Objetos&#10;&#10;- Criando classes e objetos" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Conhecendo Orientaçao a Objetos&#10;&#10;- Criando classes e objetos" />
+    <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando os métodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementando comportamentos&#10;&#10;- Implementando os métodos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -13,6 +13,14 @@ fun main() {
     contaFran.saldo = 300.0
     contaFran.deposita(25.1)
     println("Conta da ${contaFran.titular} de numero ${contaFran.numero} com saldo de ${contaFran.saldo}")
+
+    if (contaFran.transfere(100.0, contaAlex)) {
+        println("Transferência sucedida")
+    } else {
+        println("Falha na transferência")
+    }
+    println("Conta da ${contaFran.titular} de numero ${contaFran.numero} com saldo de ${contaFran.saldo}")
+    println("Conta da ${contaAlex.titular} de numero ${contaAlex.numero} com saldo de ${contaAlex.saldo}")
 }
 
 class Conta {
@@ -31,5 +39,15 @@ class Conta {
         } else {
             println("Valor de $valor indisponível para saque na conta $titular")
         }
+    }
+
+    fun transfere(valor: Double, destino: Conta): Boolean {
+        if (saldo >= valor) {
+            saldo -= valor
+            destino.saldo += valor
+            return true
+        }
+
+        return false
     }
 }

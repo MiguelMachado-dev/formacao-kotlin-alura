@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: implementando comportamentos&#10;&#10;- Implementando getter e setter">
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: escrevendo codigo mais idiomatico&#10;&#10;- Utilizando properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -43,7 +43,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "proofread"
   }
 }]]></component>
   <component name="RunManager">
@@ -74,7 +74,7 @@
       <workItem from="1667871031831" duration="3329000" />
       <workItem from="1667917198090" duration="60000" />
       <workItem from="1667917276196" duration="103000" />
-      <workItem from="1667917533160" duration="4540000" />
+      <workItem from="1667917533160" duration="5245000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667924587860</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: escrevendo codigo mais idiomatico&#10;&#10;- Utilizando properties">
+      <created>1667925204112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667925204112</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +141,8 @@
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando os métodos" />
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando a transferencia" />
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando getter e setter" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implementando comportamentos&#10;&#10;- Implementando getter e setter" />
+    <MESSAGE value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Utilizando properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Utilizando properties" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

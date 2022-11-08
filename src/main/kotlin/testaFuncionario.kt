@@ -1,8 +1,9 @@
 fun testaFuncionario() {
-    val miguel = Funcionario(
+    val miguel = Gerente(
         nome = "Miguel",
         cpf = "111.111.111-11",
-        salario = 16000.0
+        salario = 16000.0,
+        senha = 123
     )
 
     println("Bonificação: ${miguel.bonificacao}")

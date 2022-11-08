@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="doc: adicionado readme">
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: criando novas contas&#10;&#10;- Com herança e polimorfismo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Conta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Funcionario.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaFuncionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/testaFuncionario.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -91,7 +92,7 @@
       <workItem from="1667917198090" duration="60000" />
       <workItem from="1667917276196" duration="103000" />
       <workItem from="1667917533160" duration="12640000" />
-      <workItem from="1667934527518" duration="2639000" />
+      <workItem from="1667934527518" duration="3726000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -191,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667938541836</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: criando novas contas&#10;&#10;- Com herança e polimorfismo">
+      <created>1667939225402</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667939225402</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +231,8 @@
     <MESSAGE value="feat: utilizando herança&#10;&#10;- Reutilizando código com Super" />
     <MESSAGE value="feat: reutilizando codigo com polimorfismo" />
     <MESSAGE value="doc: adicionado readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="doc: adicionado readme" />
+    <MESSAGE value="feat: criando novas contas&#10;&#10;- Com herança e polimorfismo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: criando novas contas&#10;&#10;- Com herança e polimorfismo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

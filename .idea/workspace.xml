@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: criando novas classes&#10;&#10;- Organizando o projeto">
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: criando novas classes&#10;&#10;- Criando classe Funcionario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Diretor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Funcionario.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +57,11 @@
     "settings.editor.selected.configurable": "proofread"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
@@ -83,7 +90,7 @@
       <workItem from="1667871031831" duration="3329000" />
       <workItem from="1667917198090" duration="60000" />
       <workItem from="1667917276196" duration="103000" />
-      <workItem from="1667917533160" duration="7467000" />
+      <workItem from="1667917533160" duration="8951000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -141,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667928510632</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: criando novas classes&#10;&#10;- Criando classe Funcionario">
+      <created>1667928935596</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667928935596</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +181,8 @@
     <MESSAGE value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Utilizando properties" />
     <MESSAGE value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Criando contas com constructor" />
     <MESSAGE value="feat: criando novas classes&#10;&#10;- Organizando o projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: criando novas classes&#10;&#10;- Organizando o projeto" />
+    <MESSAGE value="feat: criando novas classes&#10;&#10;- Criando classe Funcionario" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: criando novas classes&#10;&#10;- Criando classe Funcionario" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

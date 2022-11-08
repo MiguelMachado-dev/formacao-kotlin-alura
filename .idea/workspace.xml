@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: Conhecendo Orientaçao a Objetos&#10;&#10;- Criando classes e objetos">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -70,7 +71,7 @@
       <workItem from="1667871031831" duration="3329000" />
       <workItem from="1667917198090" duration="60000" />
       <workItem from="1667917276196" duration="103000" />
-      <workItem from="1667917533160" duration="495000" />
+      <workItem from="1667917533160" duration="1965000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -79,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667867544188</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Conhecendo Orientaçao a Objetos&#10;&#10;- Criando classes e objetos">
+      <created>1667918064664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667918064664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: primeiros passos&#10;&#10;- Adicionando variaveis" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: primeiros passos&#10;&#10;- Adicionando variaveis" />
+    <MESSAGE value="feat: Conhecendo Orientaçao a Objetos&#10;&#10;- Criando classes e objetos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Conhecendo Orientaçao a Objetos&#10;&#10;- Criando classes e objetos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

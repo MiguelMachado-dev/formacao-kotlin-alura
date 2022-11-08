@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: escrevendo codigo mais idiomatico&#10;&#10;- Criando contas com constructor">
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: criando novas classes&#10;&#10;- Organizando o projeto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -83,7 +83,7 @@
       <workItem from="1667871031831" duration="3329000" />
       <workItem from="1667917198090" duration="60000" />
       <workItem from="1667917276196" duration="103000" />
-      <workItem from="1667917533160" duration="7005000" />
+      <workItem from="1667917533160" duration="7467000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667925894274</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: criando novas classes&#10;&#10;- Organizando o projeto">
+      <created>1667928510632</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667928510632</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +166,8 @@
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando getter e setter" />
     <MESSAGE value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Utilizando properties" />
     <MESSAGE value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Criando contas com constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Criando contas com constructor" />
+    <MESSAGE value="feat: criando novas classes&#10;&#10;- Organizando o projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: criando novas classes&#10;&#10;- Organizando o projeto" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

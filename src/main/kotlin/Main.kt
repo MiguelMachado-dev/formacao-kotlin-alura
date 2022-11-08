@@ -7,6 +7,8 @@ fun main() {
         salario = 16000.0
     )
 
+    println("Bonificação: ${miguel.bonificacao}")
+
     val gerente = Gerente(
         nome = "Gerente",
         cpf = "222.222.222-22",
@@ -19,4 +21,10 @@ fun main() {
     if (gerente.autentica(123456)) {
         println("Autenticado com sucesso!")
     }
+
+    val calculadora = CalculadoraBonificacao()
+    calculadora.registra(miguel)
+    calculadora.registra(gerente)
+
+    println("Total de bonificação: ${calculadora.total}")
 }

@@ -1,3 +1,4 @@
+// Classes abstratas não podem ser instanciadas.
 abstract class Conta(
     val titular: String,
     val numero: Int

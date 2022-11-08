@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: escrevendo codigo mais idiomatico&#10;&#10;- Utilizando properties">
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: escrevendo codigo mais idiomatico&#10;&#10;- Criando contas com constructor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -16,6 +16,13 @@
   <component name="EditorConfigPreviewManager">
     <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/src/main/kotlin/Main.kt" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -26,7 +33,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HF0VGaP6dNN3zzVfrsSZFgOaS4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -74,7 +83,7 @@
       <workItem from="1667871031831" duration="3329000" />
       <workItem from="1667917198090" duration="60000" />
       <workItem from="1667917276196" duration="103000" />
-      <workItem from="1667917533160" duration="5245000" />
+      <workItem from="1667917533160" duration="7005000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -118,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667925204112</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: escrevendo codigo mais idiomatico&#10;&#10;- Criando contas com constructor">
+      <created>1667925894274</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667925894274</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +158,8 @@
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando a transferencia" />
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando getter e setter" />
     <MESSAGE value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Utilizando properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Utilizando properties" />
+    <MESSAGE value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Criando contas com constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Criando contas com constructor" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

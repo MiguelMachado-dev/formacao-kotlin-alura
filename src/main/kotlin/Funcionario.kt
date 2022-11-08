@@ -3,5 +3,6 @@ abstract class Funcionario(
     val cpf: String,
     val salario: Double
 ) {
-    open val bonificacao: Double get() = salario * 0.1
+    // "abstract" nao pode ter implementação
+    abstract val bonificacao: Double
 }

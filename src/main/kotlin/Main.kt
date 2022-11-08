@@ -14,6 +14,8 @@ fun main() {
         senha = 123456
     )
 
+    println("Bonificação: ${gerente.bonificacao}")
+
     if (gerente.autentica(123456)) {
         println("Autenticado com sucesso!")
     }

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: criando novas classes&#10;&#10;- Criando classe Funcionario">
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: utilizando herança&#10;&#10;- Herdando da Classe Funcionário">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Diretor.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Funcionario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Gerente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +91,7 @@
       <workItem from="1667871031831" duration="3329000" />
       <workItem from="1667917198090" duration="60000" />
       <workItem from="1667917276196" duration="103000" />
-      <workItem from="1667917533160" duration="8951000" />
+      <workItem from="1667917533160" duration="9581000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667928935596</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: utilizando herança&#10;&#10;- Herdando da Classe Funcionário">
+      <created>1667930480017</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667930480017</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +190,8 @@
     <MESSAGE value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Criando contas com constructor" />
     <MESSAGE value="feat: criando novas classes&#10;&#10;- Organizando o projeto" />
     <MESSAGE value="feat: criando novas classes&#10;&#10;- Criando classe Funcionario" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: criando novas classes&#10;&#10;- Criando classe Funcionario" />
+    <MESSAGE value="feat: utilizando herança&#10;&#10;- Herdando da Classe Funcionário" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: utilizando herança&#10;&#10;- Herdando da Classe Funcionário" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

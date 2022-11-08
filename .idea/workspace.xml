@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: classe FuncionarioAdmin herdando da classe Funcionario&#10;&#10;- Herdando mais de uma classe">
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: utilizando interfaces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Cliente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Diretor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/FuncionarioAdmin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/FuncionarioAdmin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Gerente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SistemaInterno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SistemaInterno.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaAutenticacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/testaAutenticacao.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <workItem from="1667917276196" duration="103000" />
       <workItem from="1667917533160" duration="12640000" />
       <workItem from="1667934527518" duration="6313000" />
-      <workItem from="1667944035162" duration="1418000" />
+      <workItem from="1667944035162" duration="2191000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667944370767</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feat: utilizando interfaces">
+      <created>1667945487789</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1667945487789</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +281,8 @@
     <MESSAGE value="feat: membros abstratos" />
     <MESSAGE value="feat: tornando Conta e membros abstratos e setter de saldo protected" />
     <MESSAGE value="feat: classe FuncionarioAdmin herdando da classe Funcionario&#10;&#10;- Herdando mais de uma classe" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: classe FuncionarioAdmin herdando da classe Funcionario&#10;&#10;- Herdando mais de uma classe" />
+    <MESSAGE value="feat: utilizando interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: utilizando interfaces" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

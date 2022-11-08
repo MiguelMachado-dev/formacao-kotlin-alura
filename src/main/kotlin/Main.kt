@@ -1,30 +1,19 @@
 fun main() {
     println("Bem vindo ao Bytebank")
 
-    val miguel = Funcionario(
-        nome = "Miguel",
-        cpf = "111.111.111-11",
-        salario = 16000.0
+    val contaCorrente = ContaCorrente(
+        titular = "Miguel",
+        numero = 1000
     )
 
-    println("Bonificação: ${miguel.bonificacao}")
-
-    val gerente = Gerente(
-        nome = "Gerente",
-        cpf = "222.222.222-22",
-        salario = 32000.0,
-        senha = 123456
+    val contaPoupanca = ContaPoupanca(
+        titular = "John Doe",
+        numero = 1001
     )
 
-    println("Bonificação: ${gerente.bonificacao}")
+    contaCorrente.deposita(1000.0)
+    contaPoupanca.deposita(1000.0)
 
-    if (gerente.autentica(123456)) {
-        println("Autenticado com sucesso!")
-    }
-
-    val calculadora = CalculadoraBonificacao()
-    calculadora.registra(miguel)
-    calculadora.registra(gerente)
-
-    println("Total de bonificação: ${calculadora.total}")
+    contaCorrente.saca(100.0)
+    contaPoupanca.saca(100.0)
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: implementando comportamentos&#10;&#10;- Implementando a transferencia">
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: implementando comportamentos&#10;&#10;- Implementando getter e setter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -74,7 +74,7 @@
       <workItem from="1667871031831" duration="3329000" />
       <workItem from="1667917198090" duration="60000" />
       <workItem from="1667917276196" duration="103000" />
-      <workItem from="1667917533160" duration="3920000" />
+      <workItem from="1667917533160" duration="4540000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667923899153</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: implementando comportamentos&#10;&#10;- Implementando getter e setter">
+      <created>1667924587860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667924587860</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +133,8 @@
     <MESSAGE value="feat: Conhecendo Orientaçao a Objetos&#10;&#10;- Criando classes e objetos" />
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando os métodos" />
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando a transferencia" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implementando comportamentos&#10;&#10;- Implementando a transferencia" />
+    <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando getter e setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementando comportamentos&#10;&#10;- Implementando getter e setter" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

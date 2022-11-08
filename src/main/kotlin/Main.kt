@@ -1,7 +1,13 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main(){
+    println("Bem vindo ao Bytebank")
+    val titular = "Miguel"
+    val numeroConta = 1000
+    var saldo = 0.0
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    if (titular.length > 1)
+        saldo = 100.0
+
+    println("Titular $titular")
+    println("numero da conta $numeroConta")
+    println("Saldo da conta $saldo")
 }

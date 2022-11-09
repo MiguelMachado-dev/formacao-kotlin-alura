@@ -1,7 +1,5 @@
 package modelo
 
-import modelo.Conta
-
 class ContaSalario(
     titular: String,
     numero: Int

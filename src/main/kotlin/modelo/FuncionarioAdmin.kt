@@ -1,8 +1,5 @@
 package modelo
 
-import modelo.Autenticavel
-import modelo.Funcionario
-
 abstract class FuncionarioAdmin(
     nome: String,
     cpf: String,

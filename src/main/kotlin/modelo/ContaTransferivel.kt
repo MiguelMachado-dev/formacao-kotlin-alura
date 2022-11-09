@@ -1,7 +1,5 @@
 package modelo
 
-import modelo.Conta
-
 abstract class ContaTransferivel(
     titular: String,
     numero: Int

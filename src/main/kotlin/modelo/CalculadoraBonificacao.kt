@@ -1,7 +1,5 @@
 package modelo
 
-import modelo.Funcionario
-
 class CalculadoraBonificacao {
 
     var total: Double = 0.0

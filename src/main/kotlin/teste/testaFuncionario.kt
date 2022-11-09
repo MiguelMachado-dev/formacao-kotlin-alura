@@ -1,3 +1,6 @@
+import modelo.CalculadoraBonificacao
+import modelo.Gerente
+
 fun testaFuncionario() {
     val miguel = Gerente(
         nome = "Miguel",

@@ -1,3 +1,7 @@
+package modelo
+
+import modelo.Autenticavel
+
 class Cliente(
     override val nome: String,
     val cpf: String,

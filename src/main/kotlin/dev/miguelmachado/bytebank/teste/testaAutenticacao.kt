@@ -1,7 +1,7 @@
-import modelo.Cliente
-import modelo.Diretor
-import modelo.Gerente
-import modelo.SistemaInterno
+import dev.miguelmachado.bytebank.modelo.Cliente
+import dev.miguelmachado.bytebank.modelo.Diretor
+import dev.miguelmachado.bytebank.modelo.Gerente
+import dev.miguelmachado.bytebank.modelo.SistemaInterno
 
 fun testaAutenticacao() {
     val gerente = Gerente(

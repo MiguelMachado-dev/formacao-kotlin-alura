@@ -1,5 +1,5 @@
-import modelo.CalculadoraBonificacao
-import modelo.Gerente
+import dev.miguelmachado.bytebank.modelo.CalculadoraBonificacao
+import dev.miguelmachado.bytebank.modelo.Gerente
 
 fun testaFuncionario() {
     val miguel = Gerente(

@@ -1,4 +1,4 @@
-package modelo
+package dev.miguelmachado.bytebank.modelo
 
 // Classes abstratas não podem ser instanciadas.
 abstract class Conta(

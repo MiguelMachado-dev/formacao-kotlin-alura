@@ -1,5 +1,5 @@
-import modelo.ContaCorrente
-import modelo.ContaPoupanca
+import dev.miguelmachado.bytebank.modelo.ContaCorrente
+import dev.miguelmachado.bytebank.modelo.ContaPoupanca
 
 fun testaComportamentosConta() {
     // usando labels

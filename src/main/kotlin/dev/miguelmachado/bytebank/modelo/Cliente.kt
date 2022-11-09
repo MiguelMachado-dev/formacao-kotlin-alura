@@ -1,4 +1,4 @@
-package modelo
+package dev.miguelmachado.bytebank.modelo
 
 class Cliente(
     override val nome: String,

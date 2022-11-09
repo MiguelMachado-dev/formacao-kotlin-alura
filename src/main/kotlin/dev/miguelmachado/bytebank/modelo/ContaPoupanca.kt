@@ -1,9 +1,9 @@
-package modelo
+package dev.miguelmachado.bytebank.modelo
 
-class ContaSalario(
+class ContaPoupanca(
     titular: String,
     numero: Int
-) : Conta(
+) : ContaTransferivel(
     titular = titular,
     numero = numero
 ) {

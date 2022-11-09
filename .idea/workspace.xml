@@ -4,26 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: otimizando imports">
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: padronizando imports">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/Analista.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Analista.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/Autenticavel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Autenticavel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/CalculadoraBonificacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/CalculadoraBonificacao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Cliente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Conta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/ContaCorrente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaCorrente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/ContaPoupanca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaPoupanca.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/ContaSalario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaSalario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/ContaTransferivel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaTransferivel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Diretor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Funcionario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/FuncionarioAdmin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/FuncionarioAdmin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Gerente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modelo/SistemaInterno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/SistemaInterno.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/teste/testaAutenticacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaAutenticacao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/teste/testaComportamentosConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaComportamentosConta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/teste/testaContasDiferentes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaContasDiferentes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/teste/testaFuncionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaFuncionario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Conta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaCorrente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaCorrente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaPoupanca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaPoupanca.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaSalario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaSalario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaTransferivel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaTransferivel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaComportamentosConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaComportamentosConta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaContasDiferentes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaContasDiferentes.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +113,7 @@
       <workItem from="1667917533160" duration="12640000" />
       <workItem from="1667934527518" duration="6313000" />
       <workItem from="1667944035162" duration="3114000" />
-      <workItem from="1667952569148" duration="4845000" />
+      <workItem from="1667952569148" duration="5636000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -300,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667956945080</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: padronizando imports">
+      <created>1667958722397</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1667958722397</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +339,8 @@
     <MESSAGE value="feat: implementando classe ContaTransferivel que herda de conta e permite transferencia.&#10;&#10;- Conta Salário herda de Conta, onde não há transferencias" />
     <MESSAGE value="feat: organizando projeto em pacotes" />
     <MESSAGE value="feat: otimizando imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: otimizando imports" />
+    <MESSAGE value="feat: padronizando imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: padronizando imports" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -2,7 +2,7 @@ package dev.miguelmachado.bytebank.modelo
 
 // Classes abstratas não podem ser instanciadas.
 abstract class Conta(
-    val titular: String,
+    val titular: Cliente,
     val numero: Int
 ) {
     var saldo = 0.0

@@ -1,11 +1,12 @@
-import dev.miguelmachado.bytebank.modelo.Cliente
-import dev.miguelmachado.bytebank.modelo.ContaCorrente
-import dev.miguelmachado.bytebank.modelo.ContaPoupanca
-import dev.miguelmachado.bytebank.modelo.ContaSalario
+import dev.miguelmachado.bytebank.modelo.*
 
 fun testaContasDiferentes() {
     // formas diferentes de enviar o valor para o construtor
-    val gui = Cliente(nome = "Fran", cpf = "", senha = 2)
+    val gui = Cliente(
+        nome = "Gui", cpf = "", senha = 2, endereco = Endereco(
+            logradouro = "Rua das Laranjeiras",
+        )
+    )
 
     val contaCorrente = ContaCorrente(
         titular = Cliente(nome = "Alex", cpf = "", senha = 1),

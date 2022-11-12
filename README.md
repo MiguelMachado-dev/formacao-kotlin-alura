@@ -5,7 +5,8 @@
 > Orientado a Objetos.
 
 > During Kotlin Training, you will learn the Kotlin proposition and how to create, organize your first project.
-> We will start from procedural code and learn how to write code with the main features of the object-oriented paradigm.
+> We will start from procedural code and learn how to write code with the dev.miguelmachado.bytebank.main features of
+> the object-oriented paradigm.
 
 ## Author
 

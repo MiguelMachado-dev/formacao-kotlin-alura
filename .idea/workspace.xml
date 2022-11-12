@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: utilizando composição&#10;&#10;- Utilizando Classe Cliente no lugar de String em titular, para as contas possuirem os atributos que Cliente possui, como CPF.">
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: criado endereço do cliente com composiçao">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Cliente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaContasDiferentes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaContasDiferentes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Conta.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +47,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/www/ByteBank&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\www\ByteBank\src\main\kotlin\teste" />
@@ -79,7 +71,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.miguelmachado.bytebank.MainKt" />
+      <module name="ByteBank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="ByteBank" />
@@ -89,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -111,7 +111,8 @@
       <workItem from="1667934527518" duration="6313000" />
       <workItem from="1667944035162" duration="3114000" />
       <workItem from="1667952569148" duration="5892000" />
-      <workItem from="1668091725533" duration="512000" />
+      <workItem from="1668091725533" duration="1207000" />
+      <workItem from="1668214338174" duration="1106000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -302,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667959658800</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat: criado endereço do cliente com composiçao">
+      <created>1668092296215</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1668092296215</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +328,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Conhecendo Orientaçao a Objetos&#10;&#10;- Criando classes e objetos" />
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando os métodos" />
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando a transferencia" />
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando getter e setter" />
@@ -345,7 +352,8 @@
     <MESSAGE value="feat: otimizando imports" />
     <MESSAGE value="feat: padronizando imports" />
     <MESSAGE value="feat: utilizando composição&#10;&#10;- Utilizando Classe Cliente no lugar de String em titular, para as contas possuirem os atributos que Cliente possui, como CPF." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: utilizando composição&#10;&#10;- Utilizando Classe Cliente no lugar de String em titular, para as contas possuirem os atributos que Cliente possui, como CPF." />
+    <MESSAGE value="feat: criado endereço do cliente com composiçao" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: criado endereço do cliente com composiçao" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

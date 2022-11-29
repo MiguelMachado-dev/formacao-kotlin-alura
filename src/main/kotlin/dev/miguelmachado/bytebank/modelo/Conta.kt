@@ -1,8 +1,5 @@
 package dev.miguelmachado.bytebank.modelo
 
-var totalContas = 0
-    private set
-
 // Classes abstratas não podem ser instanciadas.
 abstract class Conta(
     val titular: Cliente,
@@ -11,8 +8,13 @@ abstract class Conta(
     var saldo = 0.0
         protected set
 
+    companion object {
+        var total = 0
+            private set
+    }
+
     init {
-        totalContas++
+        total++
     }
 
     fun deposita(valor: Double) {

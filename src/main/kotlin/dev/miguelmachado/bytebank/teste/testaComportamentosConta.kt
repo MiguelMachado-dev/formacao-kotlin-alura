@@ -1,3 +1,5 @@
+import dev.miguelmachado.bytebank.exception.FalhaAutenticacaoException
+import dev.miguelmachado.bytebank.exception.SaldoInsuficienteException
 import dev.miguelmachado.bytebank.modelo.Cliente
 import dev.miguelmachado.bytebank.modelo.ContaCorrente
 import dev.miguelmachado.bytebank.modelo.ContaPoupanca
@@ -16,10 +18,16 @@ fun testaComportamentosConta() {
     contaFran.deposita(300.0)
     println("modelo.Conta da ${contaFran.titular} de numero ${contaFran.numero} com saldo de ${contaFran.saldo}")
 
-    if (contaFran.transfere(100.0, contaAlex)) {
+    try {
+        contaFran.transfere(valor = 200.0, destino = contaAlex, senha = 2)
         println("Transferência sucedida")
-    } else {
+    } catch (e: SaldoInsuficienteException) {
         println("Falha na transferência")
+        e.printStackTrace()
+    } catch (e: FalhaAutenticacaoException) {
+        println("Falha na transferência")
+        println("Falha na autenticação")
+        e.printStackTrace()
     }
 
     println("modelo.Conta da ${contaAlex.titular} de numero ${contaAlex.numero} com saldo de ${contaAlex.saldo}")

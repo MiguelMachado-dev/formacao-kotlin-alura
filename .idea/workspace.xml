@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: utilizando variaveis globais">
+    <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: Utilizando o object declarations e companion object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Autenticavel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Autenticavel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Cliente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/Conta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaTransferivel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/ContaTransferivel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/SistemaInterno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/modelo/SistemaInterno.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaComportamentosConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaComportamentosConta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaContasDiferentes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/teste/testaContasDiferentes.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -31,6 +37,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/Main.kt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,16 +55,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\www\ByteBank\src\main\kotlin\teste" />
@@ -113,6 +123,9 @@
       <workItem from="1667952569148" duration="5892000" />
       <workItem from="1668091725533" duration="1207000" />
       <workItem from="1668214338174" duration="1106000" />
+      <workItem from="1669764281233" duration="455000" />
+      <workItem from="1669813885169" duration="929000" />
+      <workItem from="1669843424646" duration="1693000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>
@@ -310,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668092296215</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat: Utilizando o object declarations e companion object">
+      <created>1669762772698</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1669762772698</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +348,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando os métodos" />
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando a transferencia" />
     <MESSAGE value="feat: implementando comportamentos&#10;&#10;- Implementando getter e setter" />
     <MESSAGE value="feat: escrevendo codigo mais idiomatico&#10;&#10;- Utilizando properties" />
@@ -353,7 +372,8 @@
     <MESSAGE value="feat: padronizando imports" />
     <MESSAGE value="feat: utilizando composição&#10;&#10;- Utilizando Classe Cliente no lugar de String em titular, para as contas possuirem os atributos que Cliente possui, como CPF." />
     <MESSAGE value="feat: criado endereço do cliente com composiçao" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: criado endereço do cliente com composiçao" />
+    <MESSAGE value="feat: Utilizando o object declarations e companion object" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Utilizando o object declarations e companion object" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

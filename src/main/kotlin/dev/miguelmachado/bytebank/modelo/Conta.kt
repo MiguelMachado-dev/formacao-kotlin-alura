@@ -4,7 +4,7 @@ package dev.miguelmachado.bytebank.modelo
 abstract class Conta(
     val titular: Cliente,
     val numero: Int
-) {
+) : Autenticavel {
     var saldo = 0.0
         protected set
 
@@ -15,6 +15,10 @@ abstract class Conta(
 
     init {
         total++
+    }
+
+    override fun autentica(senha: Int): Boolean {
+        return titular.autentica(senha)
     }
 
     fun deposita(valor: Double) {

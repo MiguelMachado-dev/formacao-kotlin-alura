@@ -1,7 +1,7 @@
 package dev.miguelmachado.bytebank.modelo
 
 class Cliente(
-    override val nome: String,
+    var nome: String,
     val cpf: String,
     val endereco: Endereco = Endereco(),
     private val senha: Int

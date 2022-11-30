@@ -1,5 +1,8 @@
 package dev.miguelmachado.bytebank.modelo
 
+import dev.miguelmachado.bytebank.exception.FalhaAutenticacaoException
+import dev.miguelmachado.bytebank.exception.SaldoInsuficienteException
+
 abstract class ContaTransferivel(
     titular: Cliente,
     numero: Int
@@ -8,13 +11,21 @@ abstract class ContaTransferivel(
     numero = numero
 ) {
 
-    fun transfere(valor: Double, destino: Conta): Boolean {
-        if (saldo >= valor) {
-            saldo -= valor
-            destino.deposita(valor)
-            return true
+    override fun autentica(senha: Int): Boolean {
+        return titular.autentica(senha)
+    }
+
+    fun transfere(valor: Double, destino: Conta, senha: Int) {
+        if (saldo < valor) {
+            throw SaldoInsuficienteException(mensagem = "O saldo é insuficiente, saldo atual: $saldo, valor a ser transferido: $valor")
         }
-        return false
+
+        if (!autentica(senha)) {
+            throw FalhaAutenticacaoException()
+        }
+
+        saldo -= valor
+        destino.deposita(valor)
     }
 
 }

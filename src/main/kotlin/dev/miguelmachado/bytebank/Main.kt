@@ -1,10 +1,7 @@
 package dev.miguelmachado.bytebank
 
-import dev.miguelmachado.bytebank.modelo.Conta
-import testaContasDiferentes
+import testaComportamentosConta
 
 fun main() {
-    testaContasDiferentes()
-
-    println("Total de contas: ${Conta.total}")
+    testaComportamentosConta()
 }

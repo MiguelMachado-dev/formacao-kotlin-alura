@@ -28,6 +28,10 @@ fun testaComportamentosConta() {
         println("Falha na transferência")
         println("Falha na autenticação")
         e.printStackTrace()
+    } catch (e: Exception) {
+        // Erros desconhecidos sempre no fim para manter tratamento de casos conhecidos
+        println("Erro desconhecido")
+        e.printStackTrace()
     }
 
     println("modelo.Conta da ${contaAlex.titular} de numero ${contaAlex.numero} com saldo de ${contaAlex.saldo}")

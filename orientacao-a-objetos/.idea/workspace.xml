@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6826fefe-1560-4e0b-b7dc-5e91c40b65f7" name="Changes" comment="feat: Utilizando o object declarations e companion object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/miguelmachado/bytebank/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +124,7 @@
       <workItem from="1669849127020" duration="95000" />
       <workItem from="1669849229575" duration="438000" />
       <workItem from="1669862384500" duration="184000" />
-      <workItem from="1669897491765" duration="1611000" />
+      <workItem from="1669897491765" duration="1928000" />
     </task>
     <task id="LOCAL-00001" summary="feat: primeiros passos&#10;&#10;- Adicionando variaveis">
       <created>1667867544188</created>

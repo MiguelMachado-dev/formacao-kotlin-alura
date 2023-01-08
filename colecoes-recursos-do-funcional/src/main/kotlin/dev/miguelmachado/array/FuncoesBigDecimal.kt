@@ -1,3 +1,5 @@
+package dev.miguelmachado.array
+
 import java.math.BigDecimal
 
 // vararg é um parâmetro que pode receber vários valores.

@@ -1,3 +1,5 @@
+package dev.miguelmachado.array
+
 import java.math.BigDecimal
 import java.math.RoundingMode
 

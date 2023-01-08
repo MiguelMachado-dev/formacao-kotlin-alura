@@ -23,6 +23,10 @@ fun main() {
     }
 
     println(gastoTotal)
+
+    val media = salariosComAumento.sorted().takeLast(3).toTypedArray().media()
+    println(media)
+
 }
 
 private fun calculaAumentoRelativo(salario: BigDecimal, aumento: BigDecimal): BigDecimal =
@@ -31,14 +35,3 @@ private fun calculaAumentoRelativo(salario: BigDecimal, aumento: BigDecimal): Bi
     } else {
         (salario * aumento).setScale(2, RoundingMode.UP)
     }
-
-// vararg é um parâmetro que pode receber vários valores.
-fun bigDecimalArrayOf(vararg valores: String): Array<BigDecimal> {
-    return Array<BigDecimal>(valores.size) { i ->
-        valores[i].toBigDecimal()
-    }
-}
-
-fun Array<BigDecimal>.somatoria() = this.reduce { acumulador, valor ->
-    acumulador + valor
-}

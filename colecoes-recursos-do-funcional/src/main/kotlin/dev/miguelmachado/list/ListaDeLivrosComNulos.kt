@@ -1,5 +1,9 @@
 package dev.miguelmachado.list
 
 fun main() {
-    listaLivrosComNulos.imprimeComMarcadores()
+    listaLivros
+        .groupBy { it.editora ?: "Editora desconhecida" }
+        .forEach { (editora: String?, livros: List<Livro>) ->
+            println("$editora: ${livros.joinToString { it.titulo }}")
+        }
 }
